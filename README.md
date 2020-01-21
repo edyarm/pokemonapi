@@ -2,6 +2,8 @@
 
 Project created with django and djangorestframework.
 
+This project use sqllite3
+
 This project contains a command which, by executing it, inserts the pokemon's that are part of the evolution chain into the api.
 This project exposes a web service that allows to search by name for a pokemon, this return the information of the pokemon, the base stats and the evolutions, in the evolutions it returns both the pre-evolutions and the evolutions.
 
