@@ -7,10 +7,6 @@ from .models import Pokemon
 class PokemonModelTests(TestCase):
 
     def test_command_many_evolutions(self):
-        """
-        was_published_recently() returns False for questions whose pub_date
-        is in the future.
-        """
         args = [67]
         opts = {}
         call_command('getevolutionchain', *args, **opts)
